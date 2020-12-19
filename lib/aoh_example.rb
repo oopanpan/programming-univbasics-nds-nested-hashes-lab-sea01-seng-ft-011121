@@ -15,7 +15,7 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  new_array = assembled_aol.sorted
+  new_array = assembled_aol.sort
   new_array
 end
 
